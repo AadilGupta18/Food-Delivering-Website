@@ -64,6 +64,9 @@ const StoreContextProvider = (props) => {
     setCartItems(response.data.cartData);
   };
 
+  const [category, setCategory] = new useState("All");
+  const [category2, setCategory2] = new useState("All");
+
   const contextValue = {
     food_list,
     cartItems,
@@ -78,6 +81,10 @@ const StoreContextProvider = (props) => {
     setIsPopup,
     loader,
     setLoader,
+    category,
+    category2,
+    setCategory,
+    setCategory2,
   };
 
   useEffect(() => {
