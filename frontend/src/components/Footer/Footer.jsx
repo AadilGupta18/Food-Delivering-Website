@@ -21,10 +21,8 @@ const Footer = () => {
         <div className="footer-content-center">
           <h2>COMPANY</h2>
           <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Delivery</li>
-            <li>Privacy Policy</li>
+            <li>Shipping Time</li>
+            <li>1-2 days</li>
           </ul>
         </div>
         <div className="footer-content-right">
